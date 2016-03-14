@@ -3,6 +3,9 @@ import java.util.Set;
 
 public class uniqueIdentifier {
 
+	//make sure make a separate method
+	//pass string
+	//check base case
 	static boolean checkUniqueString(String arr){
 		if (arr == null ){
 			System.out.println("Enter a valid String");
@@ -12,6 +15,9 @@ public class uniqueIdentifier {
 		if (arr.length()==1){
 			System.out.println("Unique number");
 			return true;
+		}
+		if (arr.isEmpty()){
+			System.out.println("Please input");
 		}
 
 		int len = arr.length();
