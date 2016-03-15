@@ -16,6 +16,12 @@ public class uniqueIdentifier {
 			System.out.println("Unique number");
 			return true;
 		}
+		//if more than 26 means definitely repetition
+		if (arr.length()>=26){
+			System.out.println("Not Unique number");
+			return false;
+		}
+		
 		if (arr.isEmpty()){
 			System.out.println("Please input");
 		}
