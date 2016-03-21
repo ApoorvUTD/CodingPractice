@@ -39,12 +39,12 @@ public class isPrime {
 	        boolean[] primecount = new boolean[n];
 	        Arrays.fill(primecount,true);
 	        if (n==0){
-	        primecount[0]=false;
+	        return c;
 	        }
 	        
 	        if (n==1){
 	        primecount[0]=false;	
-	        primecount[1]=false;
+	        return c;
 	        }
 	        
 	        if(n>1){
@@ -77,6 +77,6 @@ public class isPrime {
 //			System.out.println("Sorry its not prime");
 //		}
 		
-		System.out.println(countPrimes(10));
+		System.out.println(countPrimes(1));
 	}
 }
