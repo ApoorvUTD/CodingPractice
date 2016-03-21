@@ -5,11 +5,31 @@ public class TWOsUMsORTED {
 	
 	//binary search approach
 	public static void twoSum(int[] array,int target){
+		int i=0;
+		while(i<array.length){
+			int j=binarySearch(int[] array,target-array[i]);
+			if (j!=-1){
+				System.out.println("Sum values are: "+array[i]+ array[j]);
+			}else
+			{
+				i++;
+			}
+		}
+		
 		
 	}
 	
+	 static int binarySearch(int[] array,int key){
+		int L=0;
+		int R =araay.length-1;
+		
+		
+		int i=0;
+		return i;
+	}
+	
 	//two pointer approach
-	public static void twoSum2pointer(int[] array,int target){
+	 static void twoSum2pointer(int[] array,int target){
 		
 			int j=array.length-1;
 			int i=0;
@@ -18,9 +38,7 @@ public class TWOsUMsORTED {
 				j--;
 			}
 			if(array[i]+array[j]<target){
-				i++;
-				
-				
+				i++;				
 			}
 			else{
 				
