@@ -1,5 +1,5 @@
 # CodingPractice
-MY dail Coding Practice:
+My daily Coding Practice:
 1.IsPrime:
 
 2
