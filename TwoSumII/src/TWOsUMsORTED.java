@@ -19,6 +19,7 @@ public class TWOsUMsORTED {
 			}
 			if(array[i]+array[j]<target){
 				i++;
+				
 			}
 			else{
 				
