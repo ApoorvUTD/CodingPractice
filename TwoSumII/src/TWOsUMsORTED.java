@@ -21,6 +21,7 @@ public class TWOsUMsORTED {
 				i++;
 			}
 			else{
+				
 				System.out.println(array[i]+array[j]);
 				break;
 			}
