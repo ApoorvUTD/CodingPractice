@@ -26,8 +26,12 @@ One Away problems: deletion and insertion are nearly same as one can be replicat
 URLify: it can be achieved using 2 scan technique. 
 
 
-String compression: 
-Rotate Matrix: 
+String compression: we can use string builder to avoid immutable string inefficient copying around
+
+
+Rotate Matrix:It has one unique way to do is to rotate in form layers,thus outer loop layer we need first and last then inner loop between those points and an offset value(i-first) and keep swapping from top to bottom.
+
+
 Zero Matrix: 
 String Rotation: 
 Palindrome Permutation: 
