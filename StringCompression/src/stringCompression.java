@@ -19,6 +19,7 @@ public class stringCompression {
 		for(int i=1;i<strArray.length;i++){
 
 			if(i==strArray.length-1 && strArray[i]==strArray[i-1]){
+				count=count+1;
 				result=result+strArray[i-1]+Character.forDigit(count, RADIX);
 				break;
 			}
