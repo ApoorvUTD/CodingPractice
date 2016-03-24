@@ -29,9 +29,12 @@ public class validPalindrome {
 
 		String str1 ="A man, a plan, a canal: Panama";
 		String str2="race a car";
+		String str3="jai hind";
 		System.out.println(str1);
 		checkPalindrome(str1);
 		checkPalindrome(str2);
+		checkPalindrome(str3);
+		
 
 	}
 }
