@@ -17,39 +17,27 @@ public class stringCompression {
 		int count =1;
 		//char ch = Character.forDigit(count, RADIX);
 		for(int i=1;i<strArray.length;i++){
-
+			
 			if(i==strArray.length-1 && strArray[i]==strArray[i-1]){
+				count=count+1;
 				result=result+strArray[i-1]+Character.forDigit(count, RADIX);
 				break;
 			}
-
 			if(strArray[i]==strArray[i-1]){
 				count=count+1;
-
 			}
-
-
-
-
 			if(strArray[i]!=strArray[i-1]){
 
 				result=result+strArray[i-1]+Character.forDigit(count, RADIX);
 				count=1;
 			}
-
-
-
 		}
-		System.out.println(result);
-
 		
+		
+		System.out.println(result);	
 	}
-
-
-
-
 	public static void main(String[] args) {
-		String str = "aabcccccaaa";
+		String str = "abcd";
 		compressor(str);
 
 		//System.out.println("Original String was: "+str+"Compressed string is:"+compressed);
