@@ -32,9 +32,22 @@ String compression: we can use string builder to avoid immutable string ineffici
 Rotate Matrix:It has one unique way to do is to rotate in form layers,thus outer loop layer we need first and last then inner loop between those points and an offset value(i-first) and keep swapping from top to bottom.
 
 
-Zero Matrix: 
-String Rotation: 
+Zero Matrix: keep two boolean array one for column one for the row and then you can nullify withoud having domino effect
+
+
+String Rotation: Do it in layers and do follow the general technique of one word at a time.
+
+
 Palindrome Permutation: 
+
+
+Reverse a word in a String: 
+O(n) and space O(n):
+
+
+o(n) and in space O(1) technique:
+
+
 
 
 IsPrime: check just from 2 wether its divisibly by 2 or not(not efficient as you have to go all the way just to gurantee prime, you can also check till n/2 or best go till I*I as this also solves are problem kind of mathematical so "keep calm and code")oh okay so there is another technique knowon as Prime Sieve(very similar to finding unique but with a pinch of lemon I.e. suppose all numbers are prime then pick 2 mark out its multiple, done pick 3 mark out its multiple done and so on.) 
